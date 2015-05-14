@@ -1,0 +1,4 @@
+[package]
+name = "opencv"
+version = "0.1.0"
+authors = ["ttacon <ttacon@gmail.com>"]
