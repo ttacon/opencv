@@ -1,4 +1,15 @@
 [package]
-name = "opencv"
+name = "opencv-sys"
 version = "0.1.0"
 authors = ["ttacon <ttacon@gmail.com>"]
+license = "MIT"
+description = "opencv"
+
+build = "build.rs"
+links = "opencv"
+
+[dependencies]
+libc = "*"
+
+[build-dependencies]
+pkg-config = "*"
